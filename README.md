@@ -1,8 +1,12 @@
 ## Use it!
 ```cmd
 npx degit hoseong511/vue3-webpack-template [Project name]
+cd [Project name]
 ```
-## package.json
+## Run
+```npm run dev```: webpack-dev-server --mode development
+## Build
+```npm run build```: webpack --mode production## package.json
   ```json
   {
     "devDependencies": {
@@ -108,6 +112,15 @@ npx degit hoseong511/vue3-webpack-template [Project name]
     } 
   }
   ```
+  ## .babelrc.js
+  ```js
+  module.exports = {
+    presets: ['@babel/preset-env'],
+    plugins: [
+      ['@babel/plugin-transform-runtime'] // 비동기처리를 위한 플러그인
+    ]
+  }
+  ```
   ## .eslintrc.js
   ```js
     {
@@ -155,3 +168,4 @@ npx degit hoseong511/vue3-webpack-template [Project name]
       }
     }
   ```
+
