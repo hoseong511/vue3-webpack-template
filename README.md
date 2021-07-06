@@ -1,10 +1,10 @@
   <strong><h1 align="center">Vue3-WebPack-Template</h1></strong>
   <div align="center">
+    <img src="https://kr.vuejs.org/images/logo.png" width= 20%; alt="Vue.js" />
+    &nbsp;
     <img src="https://camo.githubusercontent.com/b0573f87b0786eda63c76f2a9a1358e7a653783c25c03c6c908a00b70c713d78/68747470733a2f2f7765627061636b2e6a732e6f72672f6173736574732f69636f6e2d7371756172652d6269672e737667" width= 20%; alt="webpack" />
     &nbsp;
     <img src="https://d33wubrfki0l68.cloudfront.net/7a197cfe44548cc1a3f581152af70a3051e11671/78df8/img/babel.svg" width= 40%; alt="BABEL" />
-    &nbsp;
-    <img src="https://kr.vuejs.org/images/logo.png" width= 20%; alt="Vue.js" />
   </div>
   <br>
 
