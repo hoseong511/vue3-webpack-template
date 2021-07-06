@@ -4,6 +4,10 @@
   </div>
   <br>
 
+## **CONTENTS**
+  01. [Default](https://github.com/hoseong511/vue3-webpack-template/tree/main)
+  02. [Eslint](https://github.com/hoseong511/vue3-webpack-template/tree/eslint)
+
 ## **Default Webpack template**
 ```cmd
 npx degit hoseong511/vue3-webpack-template [Project name]
@@ -25,8 +29,6 @@ cd [Project name]
       "babel-loader": "^8.2.2",
       "copy-webpack-plugin": "^8.1.1",
       "css-loader": "^5.2.5",
-      "eslint": "^7.28.0",
-      "eslint-plugin-vue": "^7.11.0",
       "file-loader": "^6.2.0",
       "html-webpack-plugin": "^5.3.1",
       "postcss": "^8.3.0",
@@ -127,51 +129,4 @@ cd [Project name]
     ]
   }
   ```
-  ## .eslintrc.js
-  ```js
-    {
-      module.exports = {
-        env: {
-          browser: true,
-          node: true
-        },
-        extends: [
-          // vue
-          // 'plugin:vue/vue3-essential', // level1
-          'plugin:vue/vue3-strongly-recommended', // level2
-          // 'plugin:vue/vue3-recommended', // level3
-          // js
-          'eslint:recommended'
-        ],
-        parserOptions: {
-          parser: 'babel-eslint'
-        },
-        rules: {
-          "vue/html-closing-bracket-newline": ["error", {
-            "singleline": "never",
-            "multiline": "never"
-          }],
-          "vue/html-self-closing": ["error", {
-            "html": {
-              "void": "always",
-              "normal": "never",
-              "component": "always"
-            },
-            "svg": "always",
-            "math": "always"
-          }],
-          "vue/max-attributes-per-line": ["error", {
-            "singleline": {
-              "max": 3,
-              "allowFirstLine": true
-            },      
-            "multiline": {
-              "max": 1,
-              "allowFirstLine": false
-            }
-          }]
-        }
-      }
-    }
-  ```
-
+  
